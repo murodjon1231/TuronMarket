@@ -1,5 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/product-details", "destination": "/product-details.html" }
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" }
   ]
 }
